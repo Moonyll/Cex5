@@ -16,6 +16,16 @@ namespace Cex5
          int ind = int.Parse(type.Substring(1,1));        
          Console.WriteLine(fujita[ind]);
          Console.ReadKey();
-        }
-    }
+        } // ajouter des conditions else if
+        /* Méthode du switch case (selon le cas)
+        switch
+        {   
+            case :
+                break;
+            default :
+                break;
+         }
+        
+
+}
 }
